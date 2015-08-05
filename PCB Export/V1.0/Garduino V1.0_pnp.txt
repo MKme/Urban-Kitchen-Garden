@@ -1,0 +1,101 @@
+*Pick And Place List
+*Company=
+*Author=
+*eMail=
+*
+*Project=Garduino V1.0
+*Date=00:55:51
+*CreatedBy=Fritzing 0.9.1b.11.19.8d2d5970658f0bed09c661c9ea9a515b5f40f44c
+*
+*
+*Coordinates in mm, always center of component
+*Origin 0/0=Lower left corner of PCB
+*Rotation in degree (0-360, math. pos.)
+*
+*No;Value;Package;X;Y;Rotation;Side;Name
+1;;;4.85917;-38.7056;0;Bottom;Copper Fill59
+2;;THT;36.6716;-3.99782;90;Bottom;Relays
+3;;;44.2419;-30.1458;0;Bottom;Copper Fill26
+4;;;9.93917;-5.68563;0;Bottom;Copper Fill53
+5;;;53.9955;-14.1819;0;Bottom;Copper Fill52
+6;;;44.5975;-14.1819;0;Bottom;Copper Fill49
+7;;THT;58.2616;-17.9678;0;Bottom;Soil
+8;;;18.3593;-39.5819;0;Bottom;Copper Fill37
+9;;;13.9143;-25.5992;0;Bottom;Copper Fill3
+10;;;31.9737;-44.6619;0;Bottom;Copper Fill38
+11;;;13.9143;-28.1392;0;Bottom;Copper Fill2
+12;;;45.4992;-13.3056;0;Bottom;Copper Fill48
+13;;;3.95747;-39.5819;0;Bottom;Copper Fill22
+14;;;43.3128;-34.3431;-90;Bottom;IMG1
+15;;;29.5607;-7.53983;0;Bottom;Copper Fill34
+16;;;5.73547;-39.5819;0;Bottom;Copper Fill23
+17;;;6.05408;-23.6454;-90;Bottom;TXT3
+18;;;2.38161;-3.99782;0;Bottom;Hole3
+19;;;40.4192;-13.3056;0;Bottom;Copper Fill15
+20;;;9.03747;-44.6619;0;Bottom;Copper Fill12
+21;;;10.5996;-39.3152;0;Bottom;Copper Fill40
+22;;;50.8564;-33.6671;0;Bottom;Via2
+23;;THT;4.92161;-42.0978;0;Bottom;D9
+24;;;39.5175;-49.7419;0;Bottom;Copper Fill11
+25;;;13.6095;-15.5916;0;Bottom;Copper Fill33
+26;;;18.0253;-2.60109;0;Bottom;TXT1
+27;;;59.0755;-14.1819;0;Bottom;Copper Fill21
+28;;;58.1865;-23.9736;0;Bottom;Copper Fill30
+29;;THT;45.5616;-16.6978;0;Bottom;A2
+30;;;60.8016;-52.2578;0;Bottom;Hole1
+31;;;25.2416;-29.3894;0;Bottom;NANO
+32;;;58.1992;-13.3056;0;Bottom;Copper Fill20
+33;;;13.9143;-23.4148;0;Bottom;Copper Fill29
+34;;THT;10.0016;-25.5878;0;Bottom;Nokia 5110
+35;;;3.25997;-24.1157;-90;Bottom;TXT2
+36;;;40.4192;-4.92363;0;Bottom;Copper Fill44
+37;;;32.1007;-27.1232;0;Bottom;Copper Fill6
+38;;;52.4969;-38.5659;0;Bottom;Copper Fill43
+39;;THT;40.4816;-16.6978;0;Bottom;A0
+40;;;10.0535;-27.936;0;Bottom;Copper Fill25
+41;;;52.0756;-38.5439;0;Bottom;Via5
+42;;THT;45.5616;-49.7178;90;Bottom;RTC
+43;;;57.2975;-14.1819;0;Bottom;Copper Fill57
+44;;;29.3575;-16.0996;0;Bottom;Copper Fill4
+45;;THT;55.7216;-28.1278;0;Bottom;Vin
+46;;;58.0087;-33.2192;0;Bottom;Copper Fill27
+47;;;58.1992;-13.3056;0;Bottom;Copper Fill56
+48;;;9.03747;-6.56193;0;Bottom;Copper Fill54
+49;;;39.3905;-24.8626;0;Bottom;Copper Fill1
+50;;THT;10.0016;-9.07782;0;Bottom;D8
+51;;;52.6852;-1.96795;0;Bottom;Via3
+52;;;46.3755;-14.1819;0;Bottom;Copper Fill50
+53;;;2.38151;-52.2578;0;Bottom;Hole2
+54;;;56.5355;-29.4219;0;Bottom;Copper Fill42
+55;;THT;53.1816;-16.6978;0;Bottom;A6
+56;;;14.8899;-8.06395;0;Bottom;Via1
+57;;;53.1192;-13.3056;0;Bottom;Copper Fill51
+58;;;40.4192;-50.6436;0;Bottom;Copper Fill39
+59;;;16.7337;-39.5819;0;Bottom;Copper Fill36
+60;;;60.8016;-3.99782;0;Bottom;Hole4
+61;;;51.4555;-4.02193;0;Bottom;Copper Fill47
+62;;;53.0303;-46.3764;0;Bottom;Copper Fill24
+63;;;48.9155;-5.33003;0;Bottom;Copper Fill35
+64;;;10.8155;-6.56193;0;Bottom;Copper Fill55
+65;;;45.4992;-13.3056;0;Bottom;Copper Fill17
+66;;;10.8155;-44.6619;0;Bottom;Copper Fill13
+67;;THT;50.6416;-6.53782;0;Bottom;A1
+68;;;54.7575;-29.4219;0;Bottom;Copper Fill41
+69;;;40.4192;-4.92363;0;Bottom;Copper Fill14
+70;;;40.4192;-50.6436;0;Bottom;Copper Fill10
+71;;;10.5996;-40.3058;0;Bottom;Copper Fill7
+72;;;45.4611;-22.1194;0;Bottom;Copper Fill31
+73;;;39.5175;-14.1819;0;Bottom;Copper Fill16
+74;;;32.1007;-27.1232;0;Bottom;Copper Fill32
+75;;;10.6227;-39.7631;0;Bottom;Via4
+76;;;10.0789;-39.7851;0;Bottom;Copper Fill9
+77;;THT;55.7216;-37.0178;0;Bottom;A7
+78;;;10.8155;-6.56193;0;Bottom;Copper Fill19
+79;;;13.9143;-33.2192;0;Bottom;Copper Fill28
+80;;;10.5996;-39.3152;0;Bottom;Copper Fill8
+81;;;39.5175;-14.1819;0;Bottom;Copper Fill45
+82;;;40.5843;-5.93963;0;Bottom;Copper Fill5
+83;;;41.2955;-14.1819;0;Bottom;Copper Fill46
+84;;THT;10.0016;-47.1778;0;Bottom;DHT-11
+85;;;59.0755;-14.1819;0;Bottom;Copper Fill58
+86;;;9.93917;-5.68563;0;Bottom;Copper Fill18
