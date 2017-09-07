@@ -1,6 +1,6 @@
 /* 
 Erics Open Source Urban Kitchen Garden
-My Youtube Channel  : http://www.youtube.com/c/ericwilliam
+My Youtube Channel  : http://www.youtube.com/mkmeorg
 If you use this code or personalize it etc- please consider sharing it back with the world via the forum at http://www.mkme.org/forum
 
 Please consider purchasing some of the needed components for this project from Adafruit.com- They are an amazing company who support projects like this one
@@ -332,7 +332,7 @@ void Alarm(){
   
   //Insert non desired output alarms here
   
-  //Insert SkyNet has teaken over the world via my garden alarm here
+  //Insert SkyNet has taken over the world via my garden alarm here
 
 }
 
