@@ -15,3 +15,5 @@ It uses a peltier driven wine cooler into a grow chamber and powered it with a s
 The unit can control the temp, monitor humidity and soil moisture for any plants. A simple LED spotlight provides sufficient light. 
 
 Hopefully this open-source build will inspire others to grow their own food at home. Perhaps this will allow anyone to achieve some self-reliance for a brighter future regardless of where they may be.
+
+March2019- Updated to include RTC set code.  Edit settings for the current time at programming your RTC, upload, then upload the main Garden code and you time will be displayed correctly.
