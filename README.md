@@ -1,5 +1,6 @@
-# Urban-Kitchen-Garden
-This is the repository for the Arduino Urban Kitchen Garden Project
+<p align="center">
+<b>Arduino Urban Kitchen Garden Project</b><br>
+<br>
 
 Open Source Arduino controlled counter-top garden for growing vegetables, herbs, or greens for sustainable foods right in your own home.
 <br>
@@ -12,9 +13,9 @@ Add any code you wish for your project and this will handle the radio communicat
 Support this project and become a patron on <a href="http://mkme.org/patreon">Eric's Patreon</a>.<br>
 Website, Forum and store are at http://mkme.org <br>
 Chat with Me: <a href="https://discord.gg/j9S4Fgv">Discord</a></b>!
+</p>
 
-
-
+###Instructions
 Find the entire project and instructions here:
 https://hackaday.io/project/6324-urban-kitchen-garden
 
