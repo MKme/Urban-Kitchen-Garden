@@ -1,7 +1,7 @@
 <p align="center">
 <b>Arduino Urban Kitchen Garden Project</b><br>
 <br>
-<img src="https://github.com/MKme/Urban-Kitchen-Garden/blob/master/Pics/204891440125112530.jpg"/>
+<img src="https://github.com/MKme/Urban-Kitchen-Garden/blob/master/Pics/4507771434562849108.jpg"/>
 Open Source Arduino controlled counter-top garden for growing vegetables, herbs, or greens for sustainable foods right in your own home.
 <br>
 Use this to add a simple radio master and slave with bi-directional communications between them
@@ -37,5 +37,7 @@ Hopefully this open-source build will inspire others to grow their own food at h
 | Arduino| To: |
 | ---------- |----------------|
 | EN Pin | GND  |
+
+<img src="https://github.com/MKme/Urban-Kitchen-Garden/blob/master/Pics/204891440125112530.jpg"/>
 
 March2019- Updated to include RTC set code.  Edit settings for the current time at programming your RTC, upload, then upload the main Garden code and you time will be displayed correctly.
