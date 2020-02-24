@@ -1,7 +1,7 @@
 <p align="center">
 <b>Arduino Urban Kitchen Garden Project</b><br>
 <br>
-<p align="center"><img src="https://github.com/MKme/Urban-Kitchen-Garden/blob/master/Pics/204891440125112530.jpg"/></p>
+<img src="https://github.com/MKme/Urban-Kitchen-Garden/blob/master/Pics/204891440125112530.jpg"/></p>
 Open Source Arduino controlled counter-top garden for growing vegetables, herbs, or greens for sustainable foods right in your own home.
 <br>
 Use this to add a simple radio master and slave with bi-directional communications between them
