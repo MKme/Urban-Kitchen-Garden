@@ -15,10 +15,13 @@ Website, Forum and store are at http://mkme.org <br>
 Chat with Me: <a href="https://discord.gg/j9S4Fgv">Discord</a></b>!
 </p>
 
-###Instructions
+### Instructions
 
 Find the entire project and instructions here:
 https://hackaday.io/project/6324-urban-kitchen-garden
+
+
+### Summary 
 
 This project is designed to allow anyone, anywhere to have a modular, aesthetically pleasing, and simple device to grow food in their own kitchen. 
 
