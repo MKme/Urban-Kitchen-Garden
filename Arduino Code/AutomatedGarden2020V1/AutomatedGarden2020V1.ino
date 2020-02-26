@@ -239,11 +239,15 @@ void TempFunctions(){
     digitalWrite(TempPin2, HIGH);
     CoolingStatus = "Cool";
     }
-   if (t <= (setTemp - TempHyst)) {
+   else if (t <= (setTemp - TempHyst)){
    digitalWrite(TempPin, HIGH);
-   digitalWrite(TempPin2, HIGH);
-   CoolingStatus = "Heat";
-   } }
+   digitalWrite(TempPin2, LOW);
+   CoolingStatus = "Heat";}
+
+  else{
+   CoolingStatus = "Idle";}
+   }
+      
 
 //take soil moisture measurement---------------------------
 void SoilMoisture(){ 
@@ -282,7 +286,7 @@ void debug(){  //This area only used for debugging any changes to the code- hand
       Serial.print(t);
       Serial.println(" *C"); }
 //Cooling System Values
-  Serial.print ("Cooling is ");
+  Serial.print ("Temp Control: ");
   Serial.println (CoolingStatus);
 //Light System Values
   Serial.print("Lights "); 
@@ -322,7 +326,7 @@ void LCDDisplay(){
   display.println("% RH");
   display.print("Light: ");
   display.println(LightStatus);
-  display.print("Cooling: ");
+  display.print("TempCtrl: ");
   display.println(CoolingStatus);
   display.print("Soil: ");
   display.print(SoilStatus);
