@@ -73,13 +73,6 @@ Removed peristaltic pump drive- unecessary at this time but should be added back
 changed Arduino back to Nano & altered needed I/O
 Commented the heck out of everything so others with far more logical brains can make sense of my insanity
 
-2020V1
-Moved to new file so I dont break any of the old project links, tutorials, guides etc.  
-Cost of high quality grow lights is now much lower so will retrofit 
-Add full auquaponic control to augment soil grow
-Reinstate H bridge control for heat/cool and test in hostile environment prepping project for deployemet anywhere (space?)
-*Moving to H-Bridge For Temp Control
-
 */
 
 #include "Wire.h" //RTC
@@ -105,8 +98,7 @@ int lighton =4; //Lights On Hour Value
 int lightoff =21; //Lights Off Hour Value (Goes one hour past for some reason Eric was too dumb to figure out)
 
 //Temperature Control
-#define TempPin 12 // H Bridge Pin
-#define TempPin2 13 // H Bridge Pin -----------------------------------------------------------------------------------------------NEEDS CHANGED TO UNUSED PIN ERIC!!!!! 2020 note
+#define TempPin 12 // Relay pin for cooling
 int TempHyst=1; //Hysteresis for cooling system in Degrees
 int setTemp=24; //Temp Setpoint in Degrees C (29=84.2 so a 10 deg f drop at night = 23.4C at night)
                 // 75 deg is supposed to be top of range for herbs (23.9C) so 10 deg drop would be 65 (18.33C)
@@ -236,13 +228,11 @@ void TempFunctions(){
 
    if (t >= (setTemp + TempHyst)) {
     digitalWrite(TempPin, LOW);
-    digitalWrite(TempPin2, HIGH);
-    CoolingStatus = "Cool";
+    CoolingStatus = "On";
     }
    if (t <= (setTemp - TempHyst)) {
    digitalWrite(TempPin, HIGH);
-   digitalWrite(TempPin2, HIGH);
-   CoolingStatus = "Heat";
+   CoolingStatus = "Off";
    } }
 
 //take soil moisture measurement---------------------------
