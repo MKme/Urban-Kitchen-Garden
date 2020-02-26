@@ -75,7 +75,7 @@ Commented the heck out of everything so others with far more logical brains can 
 
 2020V1
 Moved to new file so I dont break any of the old project links, tutorials, guides etc.  
-Cost of high quality grow lights is now much lower so will retrofit 
+Cost of high quality grow lights is now much lower so will retrofit in a full spectrum light
 Add full auquaponic control to augment soil grow
 Reinstate H bridge control for heat/cool and test in hostile environment prepping project for deployemet anywhere (space?)
 *Moving to H-Bridge For Temp Control
@@ -231,7 +231,7 @@ void TempFunctions(){
   h = dht.readHumidity();
   t = dht.readTemperature();
     
-//Cooling circuit code here----------------------------------------------------------------
+//Temperature Regulation code here----------------------------------------------------------------
 //this needs a safety timer/shutoff function in production version
 
    if (t >= (setTemp + TempHyst)) {
@@ -245,7 +245,7 @@ void TempFunctions(){
    CoolingStatus = "Heat";}
 
   else{
-   CoolingStatus = "Idle";}
+   CoolingStatus = "Idle";}  // added this so in theory when inside hysteresis no heat or cool should be active and state==idle
    }
       
 
