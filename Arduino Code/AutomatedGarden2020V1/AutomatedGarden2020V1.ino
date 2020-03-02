@@ -97,7 +97,7 @@ Adafruit_PCD8544 display = Adafruit_PCD8544(7, 6, 5, 4, 3);//4 and 3 are reverse
 #define backlightpin 11 //Pin for LCD backlight
 int backlightlevel = 220; //Level for backlight PWM
 int backlightoff = 255; //Level which turns backlight off completely
-int displaycontrast = 50; //***** Set this contrast to suit your display- they are indeed different
+int displaycontrast = 45; //***** Set this contrast to suit your display- they are indeed different
 
 //LED Light Control
 #define LIGHTPIN 10 //Pin for light relay

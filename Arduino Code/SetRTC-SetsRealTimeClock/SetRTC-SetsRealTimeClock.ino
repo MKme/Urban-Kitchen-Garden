@@ -29,12 +29,12 @@ void loop(){
 void setDateTime(){
 
   byte second =      0; //0-59
-  byte minute =      13; //0-59
-  byte hour =        19; //0-23
-  byte weekDay =     3; //1-7
-  byte monthDay =    28; //1-31
-  byte month =       5; //1-12
-  byte year  =       13; //0-99
+  byte minute =      53; //0-59
+  byte hour =        21; //0-23
+  byte weekDay =     1; //1-7
+  byte monthDay =    3; //1-31
+  byte month =       3; //1-12
+  byte year  =       20; //0-99
 
   Wire.beginTransmission(DS1307_ADDRESS);
   Wire.write(zero); //stop Oscillator
