@@ -44,3 +44,6 @@ Hopefully this open-source build will inspire others to grow their own food at h
 <img src="https://github.com/MKme/Urban-Kitchen-Garden/blob/master/Pics/204891440125112530.jpg"/>
 
 March2019- Updated to include RTC set code.  Edit settings for the current time at programming your RTC, upload, then upload the main Garden code and you time will be displayed correctly.
+
+This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.
+https://creativecommons.org/licenses/by-nc/4.0/ 
